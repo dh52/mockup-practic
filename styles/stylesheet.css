@@ -37,7 +37,7 @@ header {
   padding: 6px;
   width: 12%;
 }
-.navbar a {
+.navbar a, .dex a, .star a {
   color: white;
   text-decoration: none;
 }
@@ -49,6 +49,7 @@ aside {
   background-color: #c0b2d5;/*light purple*/
   width: 15%;
   height: 550px;
+  box-sizing: border-box;
   margin: auto;
   float: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +58,7 @@ aside {
 }
 .aside li {
   list-style-type: none;
-  padding: .5em
+  padding: .5em;
 }
 section p {
   font-family: Arial, Helvetica, sans-serif;
@@ -108,3 +109,21 @@ footer {
   width: 5rem;
   background-image: image(linkedin.png);
 }
+.dex li {
+  list-style-type: none;
+  padding: .5em;
+  color: white;
+}
+.star li {
+  list-style-type: none;
+  padding: .5em;
+  color: white;
+}
+.dex a:hover {
+  color: rebeccapurple;
+}
+.star a:hover {
+  color: rebeccapurple;
+}
+
+
