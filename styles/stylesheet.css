@@ -44,7 +44,7 @@ header {
   color: white;
   text-decoration: none;
 }
-#navbar li a:first-child{
+#navbar li :first-child{
   border-left: 0;
 }
 aside {
